@@ -9,7 +9,7 @@ using System.Management;
 
 namespace USBReader
 {
-    class Derp 
+    class USBReader
     {
         static void Main(string[] args)
         {
@@ -41,6 +41,15 @@ namespace USBReader
             collection.Dispose();
             return devices;
         }
+
+        //INSERT INTO DATABASE ?
+        //static List<USBDeviceInfo> InsertUSBDevice()
+        //{
+        //    //INSERT 
+        //        //DEVICE_ID
+        //        //PNP_ID
+        //        //DEVICE_DESCRIPTION
+        //}
 
     }
 }
